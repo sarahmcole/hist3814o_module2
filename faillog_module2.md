@@ -59,6 +59,7 @@ but now I have a bunch of objects all called "tweet", and if I want to make a va
   + fail: this resulted in 1000+ objects in the initial array called "tweet"
   + solution: I [wrote a Python program](http://github.com/sarahmcole/hist3814o_module2/replace_json.py) that replaced "tweet" with "tweet1", "tweet2", "tweet3", etc. Then it was valid JSON!
   + future steps: if python supports regex, then this program could be modified to convert directly from `{"in_reply_to_status_id":` to `"tweet + str(n) + ": {"in_reply_to_status_id":`, with n going up by 1 with each object.
+   + I added documentation and the program now uses the initial .json output from twarc; no need to add `"tweet": {`
 + json2csv accepted my new .json and converted it to csv, which I saved to my own machine as "search_output.csv" and deleted from DHBox (as it was over 5MB).
 
 ## EXERCISE 6: TESSERACT OCR
