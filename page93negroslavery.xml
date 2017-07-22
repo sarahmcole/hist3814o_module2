@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="000style.xsl"?>
+<teiCorpus>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitised and Encoded copy of Negro Slavery by Zachary MacAulay</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Transcribed from digital copy available from Recovered Histories at
+                    http://www.recoveredhistories.org/pamphlet1.php?page=1&amp;orderby=MaxID&amp;catid=66</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Negro Slavery; or, A View of Some of the More Prominent Features of
+                            that State of Society, as it Exists in the United States of America and
+                            in the Colonies of the West Indies, Especially in Jamaica</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Printed for Hatchard and Son, Piccadilly, and J. and A. Arch,
+                            Cornhill</publisher>
+                        <distributor>Sold Also by W. Graphel, Church street, and G. and J. Robison,
+                            Castle Street, Liverpool.</distributor>
+                        <date when="1823">1823</date>
+                        <pubPlace>
+                            <settlement>London</settlement>
+                        </pubPlace>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Transcribed by a student of Digital History at Sheffield Hallam
+                        University</authority>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <biblScope>1</biblScope>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <biblScope>93</biblScope>
+				<p>the facts of the case, we have met with nothing to sustain that hope. <interp key="British slaves were not fully emancipated until 1834; 1823, the year of this pamphlet's publication, marked the beginning of renewed anti-slavery sentiment in West Indian colonies." n="Lambert, David. '''True lovers of religion': Methodist persecution and white resistance to anti-slavery in Barbados, 1823-1825.'' Journal of Historical Geography 28, no. 2 (2002): 217." cert="high" ref="https://journals-scholarsportal-info.proxy.library.carleton.ca/pdf/03057488/v28i0002/216_lormpartaib1.xml">We have not been able to discover any <emph rend="italics">substantial</emph> amelioration in the <emph rend="italics">nature</emph> of the slavery of the present day, when compared with that, which, from the evidence adduced before the Privy Council and Parliament in the years 1788-1791, we learn to have then prevailed. The slavery of both periods appears to us to be identically the same state of existence.</interp> </p>
+				<p>We do not mean to deny that many individual planters, as <persName key="Hibbert, Robert" from="1769" to="1848" role="plantation owner" ref="https://en.wikipedia.org/wiki/Robert_Hibbert_(Anti-Trinitarian)">Mr. Hibbert </persName>and others, may have been induced, by the discussions which have taken place, and by their own benevolent feelings, to act a more liberal and indul-gent part towards their slaves than formerly. Neither do we mean to affirm that the influence of public opinion, excited by the public agitation of the subject, has had no effect in restraining the abuses of power. <interp key="There was an attempt by those with an interest in slavery to depict slaveowners were becoming benevolent masters under social, political, and religious pressure, but reports on conditions revealed that these supposed improvements were rare." n="Morgan, Kenneth. Slavery in the British Empire: From Africa to America. New York: Oxford University Press, 2007. 181." cert="med" ref="http://lib.myilibrary.com/Open.aspx?id=134183">What we mean to affirm is, that during the sixteen years whcih have followed the abolition of the Slave-trade; nay, dur-ing the thirty-five years which have elapsed since the con-dition of Negro slavery has become a topic of controversy in this country, that unhappy state of being have under-gone no real or substantial improvement whatever -- no improvement, that is to say, which does not depend, we may say wholly, on the dispositions and the conduct of the proprietor or of his delegated agent, for the time being.</interp> </p>
+				<p>We admit that various colonial acts have been framed, professing to improve the condition of the slave; <interp key="Until 1823, legal protections for slaves gained by the British anti-slavery movement were negligible." n="Morgan, Kenneth. Slavery in the British Empire: From Africa to America. New York: Oxford University Press, 2007. 170." cert="med" ref="http://lib.myilibrary.com/Open.aspx?id=134183">but they have been generally inefficient to their professed object, whatever other purpose they may have served.</interp> Of the Curate's Act of Jamaica, for example, <persName key="Cooper, Thomas" from="?" to="?" role="Unitarian minister" ref="https://books.google.ca/books?id=mTNcAAAAcAAJ">Mr. Cooper </persName> informs us, that he had heard it repeatedly declared, that it was "intended for <placeName key="England" ref="https://en.wikipedia.org/wiki/England">England</placeName> and not for <placeName key= "Jamaica" ref="https://en.wikipedia.org/wiki/Jamaica">Jamaica</placeName>;" for, he adds, "<emph rend="italics">it must have been known</emph> before it was passed, that, under the peculiar circumstances existing there, <emph rend="italics">such a law could have no tendency to improve the condition</emph></p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
