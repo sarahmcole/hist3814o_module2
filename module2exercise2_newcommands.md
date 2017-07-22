@@ -29,38 +29,38 @@ Here is where I fly too close to the sun in trying to push module2exercise2_comm
 
 Here is me thinking the mv command is actually move:
 
-   21  move hist3814o_module2 module2exercise2_commands.md
-   22  move mo
-   23  move
-   24  move module2exercise2_commands.md hist3814o_module2
-   25  cd hist3814o_module2
-   26  cd
-   27  cd hist3814o_module2
-   28  gi
-   29  git init
-   30  cd
-   31  cd wget-activehistory
+    21  move hist3814o_module2 module2exercise2_commands.md
+    22  move mo
+    23  move
+    24  move module2exercise2_commands.md hist3814o_module2
+    25  cd hist3814o_module2
+    26  cd
+    27  cd hist3814o_module2
+    28  gi
+    29  git init
+    30  cd
+    31  cd wget-activehistory
 
 here is me getting the mv command right, but not realizing that it just renamed module2exercise2_commands.md to hist3814o_module2:
 
-   32  mv module2exercise2_commands.md hist3814o_module2
-   33  cd
-   34  cd modu
-   35  cd hist3814o_module2
-   36  ls
-   37  cdcd
-   38  cd
-   39  cd wget-activehistory
-   40  ls
+     32  mv module2exercise2_commands.md hist3814o_module2
+    33  cd
+    34  cd modu
+    35  cd hist3814o_module2
+    36  ls
+    37  cdcd
+    38  cd
+    39  cd wget-activehistory
+    40  ls
 
 here is where I thought I had lost module2exercise2_commands.md and make a new history file:
 
-   41  history
-   42  history > module2exercise2_commands.md
-   43  nano module2exercise2_commands.md
+    41  history
+    42  history > module2exercise2_commands.md
+    43  nano module2exercise2_commands.md
 
 here is where I realize the original module2exercise2_commands.md was never lost after all, so I rename it to module2exercise2_originalcommands.md and make this new command history.
 
-   44  nano hist3814o_module2
-   45  mv hist3814o_module2 module2exercise2_originalcommands.md
-   46  history > module2exercise2_newcommands.md
+    44  nano hist3814o_module2
+    45  mv hist3814o_module2 module2exercise2_originalcommands.md
+    46  history > module2exercise2_newcommands.md
