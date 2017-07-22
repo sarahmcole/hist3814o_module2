@@ -20,9 +20,9 @@
   + Workaround attempt: I tried to make a git repository on my machine to then push to the remote on github. It didn't work; I think because I hadn't initialized a repo on my machine, so there were no tracked changes (such as the addition of a file) to "push." So, I created a new directory called `hist3814o_module2` and initialized it. Then I cd'd into the folder containing module2exercise2_commands.md and tried to move the .md file into /hist3814o_module2/ with this command:
 `mv module2exercise2_commands.md hist3814o_module2`
 I wound up renaming the file to hist3814o_module2! So I changed the name back, made an updated commands history, downloaded both and uploaded them to github through my browser. Follow the epic saga on the updated commands history.
-+ I downloaded the 1880s wget -r -np  -w 2 --limit-rate=20k -nd -A .txt http://collections.banq.qc.ca:8008/jrn03/equity/src/
-+ FAIL: I DID EXACTLY WHAT DR GRAHAM SAID NOT TO DO AND STARTED DOWNLOADING ALL OF IT... but nothing downloaded, because the .html files it tried to download first were rejected by my command. Phew.
-+ I used the command wget -r --no-parent -w 2 --limit-rate=20k -nd -A .txt http://collections.banq.qc.ca:8008/jrn03/equity/src/189*/, changing the year 10 times.
++ I tried this command:`wget -r -np  -w 2 --limit-rate=20k -nd -A .txt http://collections.banq.qc.ca:8008/jrn03/equity/src/`
+  + FAIL: I DID EXACTLY WHAT DR GRAHAM SAID NOT TO DO AND STARTED DOWNLOADING ALL OF IT... but nothing downloaded, because the .html files it tried to download first were rejected by my command. Phew.
++ I used the command `wget -r --no-parent -w 2 --limit-rate=20k -nd -A .txt http://collections.banq.qc.ca:8008/jrn03/equity/src/189*/`, changing the year 10 times to download all issues from the 1890s.
 + lost my internet connection again and was unable to export my history this time. sigh.
 
 ## EXERCISE 3: TEI
@@ -49,7 +49,7 @@ I wound up renaming the file to hist3814o_module2! So I changed the name back, m
 + error: could not install TWARC: `sudo: pip: command not found`
   + I posted on Slack asking about this error.
   + response from Dr. Graham got it fixed: running `pip install twarc` worked. I annotated the instructions to let my classmates know.
-+ I love reading and this class is making me think about diversity and community and technology, so I searched JSON for `ownvoices (a community campaign led by readers and authors promoting books written by minority characters written by minorities)
++ I love reading and this class is making me think about diversity and community and technology, so I searched JSON for `ownvoices` (a community campaign led by readers and authors promoting books written by minority characters written by minorities)
 + got error message when trying to convert using json2csv. It seems to have to do with a formatting error in the json file. I screencapped the error message and uploaded it to /hist3814o_module2/ as module2exercise5errormsg.png.
   + I posted in Slack asking about this error.
 + (copied from slack group) found error: the json file produced by twarc treats each tweet as its own array, without an initial array connecting them all into one file, like this: `{"data": "value"...} {"data": "value"...} {"data": "value"...}`. I was able to use notepad++'s replace function and some regex to separate them out into something like this:
